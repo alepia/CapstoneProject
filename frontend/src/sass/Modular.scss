@@ -1,0 +1,115 @@
+$icon: lightgrey;
+$bg: #24272b;
+
+.buttons_container {
+  width: 150px;
+  height: 57px;
+  padding: 9px 15px;
+  background: rgba($bg, 0.6);
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  position: fixed;
+  bottom: 0px;
+  right: 43%;
+  margin-bottom: 8px;
+  background: rgba($bg, 0.6);
+}
+
+.addBtn {
+  padding: 9px 15px;
+  background: rgba($bg, 0.6);
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  position: fixed;
+  bottom: 0px;
+  right: 48%;
+  margin-bottom: 8px;
+  font-size: 2em;
+  .addIcon {
+    color: rgba($icon, 0.5);
+  }
+
+  .addIcon:hover {
+    color: rgba($icon, 1);
+  }
+}
+
+.addModular {
+  width: 45%;
+  height: 45%;
+  background-color: rgba($color: $bg, $alpha: 0.1);
+  position: absolute;
+  bottom: 20;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.upload-container {
+  //   border: 1px solid red;
+  height: 300px;
+  width: 250px;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  height: 200px;
+  width: 200px;
+}
+
+.file-upload-button {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  margin-top: 50%;
+}
+
+.post-upload-comment {
+  height: 70px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 7px;
+}
+
+.btnContainer {
+  margin-top: -20px;
+  padding-bottom: 20px;
+
+  .submitBtn {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: $bg;
+    cursor: pointer;
+  }
+
+  .submitBtn:hover {
+    // box-shadow: 0 8px 16px rgba($color: #1ce247, $alpha: 0.4);
+    background-color: #12922e;
+    color: black;
+  }
+
+  .closeBtn {
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    background-color: $bg;
+    cursor: pointer;
+  }
+
+  .closeBtn:hover {
+    // box-shadow: 0 8px 16px rgba($color: #e21c1c, $alpha: 0.4);
+    color: #e21;
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,49 @@
+.place-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-card-container {
+  height: 30vh;
+  max-height: 50vh;
+  width: 95%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: url("../Images/andres-garcia-OgrfLCYqfVY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  margin-top: 10px;
+
+  .city-name {
+    margin: 10px 10px;
+  }
+}
+
+.place-flex-container-tokyo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-card-container-tokyo {
+    height: 30vh;
+    max-height: 50vh;
+    width: 95%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("../Images/louie-martinez-IocJwyqRv3M-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    margin-top: 10px;
+  
+    .city-name {
+      margin: 10px 10px;
+    }
+  }

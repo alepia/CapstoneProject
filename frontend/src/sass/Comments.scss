@@ -1,0 +1,100 @@
+$bg: #24272b;
+
+.flexContainer {
+  display: flex; /* make it a flex container */
+  flex-wrap: wrap; /* allow items to wrap to next line */
+  margin-top: 12%;
+}
+
+.FlexItem {
+  flex: 1 0 50%;
+}
+
+.flexItemUno {
+  margin-left: 20px;
+
+  p {
+    color: white;
+  }
+
+  h5 {
+    color: white;
+    padding: 20px;
+    text-align: end;
+  }
+}
+
+.comment_section {
+  position: relative;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: $bg;
+  border-radius: 25px;
+}
+
+.add_comment {
+  margin-left: 20px;
+
+  textarea {
+    border-radius: 10px;
+    padding: 3px;
+    resize: none;
+    background-color: #24272b;
+    color: white;
+  }
+}
+
+.like_container_comment {
+  padding: 8px 12px;
+  text-align: right;
+}
+
+.icons {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.like {
+  color: red;
+}
+
+.comment {
+  color: lightblue;
+}
+
+.save {
+  color: lightgray;
+}
+
+.send {
+    color: lightskyblue;
+    position: absolute;
+    top: 430px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.delete {
+    font-size: x-small;
+    cursor: pointer;
+}
+
+.div_scroll {
+  background-color: #24272b;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+
+.comentario {
+  margin: 10px;
+}
+
+.caption {
+    margin: 10px;
+}

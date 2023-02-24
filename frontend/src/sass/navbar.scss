@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+$azul: #2790f5;
+$azulfull: rgba($azul, 0.8);
+$azulgra: rgba($azul, 0.6);
+$icon: lightgrey;
+$bg: #24272b;
+
+header,
+li,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 10%;
+  background-color: $bg;
+}
+
+.nav__links li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: $azul;
+}
+
+.icons__nav {
+  a {
+    margin-left: 20px;
+  }
+}
+
+.logo {
+  font-family: 'Tilt Prism', cursive;
+  color: white;
+}
+
